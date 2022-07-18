@@ -1,5 +1,7 @@
 ## PyTorch 文本分类
 
+### 包含的模型
+
 TextCNN
 
 LSTM BiLSTM
