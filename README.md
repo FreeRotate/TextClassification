@@ -4,6 +4,3 @@
 ###LSTM BiLSTM
 ###GRU BiGRU
 ###TransformerEncoder
-
-使用THUNews数据集
-pytorch
