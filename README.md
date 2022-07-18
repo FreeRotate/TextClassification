@@ -1,6 +1,6 @@
 ## PyTorch 文本分类
 
-### 包含的模型
+## 基于PyTorch的文本分类框架，包含多种模型
 
 TextCNN
 
