@@ -1,6 +1,6 @@
 ## PyTorch 文本分类
 
-## 基于PyTorch的文本分类框架，包含多种模型
+### 包含的模型如下
 
 TextCNN
 
@@ -35,7 +35,7 @@ python main.py
 ```
 ### 注意事项
 
-#### 更换模型请在main.py中修改default部分，例如使用GRU/BiGRU模型，使用下面代码
+#### 更换模型请在main.py中修改default部分，例如GRU/BiGRU模型，使用下面代码
 ```python
 parser.add_argument('--model', type=str, default='GRU', help='CNN, GRU, LSTM, TransformerEncoder')
 ```
