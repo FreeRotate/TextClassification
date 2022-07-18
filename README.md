@@ -25,9 +25,9 @@ python main.py
 ```
 ### 注意事项
 
-####更换模型请在main.py代码中修改以下部分
+#### 更换模型请在main.py中修改default部分，例如使用GRU/BiGRU模型，使用下面代码
+```python
+parser.add_argument('--model', type=str, default='GRU', help='CNN, GRU, LSTM, TransformerEncoder')
+```
 
-***from model.<模型名称> import \<模型名称\>***
-
-***model = \<模型名称\> (len(vocab), config).to(config.device)***
 ### 这是我第一个开源的项目，喜欢请多多star
