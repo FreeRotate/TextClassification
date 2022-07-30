@@ -6,7 +6,7 @@
 import torch
 import numpy as np
 import torch.optim as optim
-from utils import batch_variable, DataLoader
+from utils import batch_variable
 from sklearn import metrics
 
 def train(model, train_loader, dev_loader, config, vocab):
