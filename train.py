@@ -9,23 +9,6 @@ import torch.optim as optim
 from utils import batch_variable, DataLoader
 from sklearn import metrics
 
-# def get_k_fold_data(k, i, data_loader):  ###此过程主要是步骤（1）
-#     # 返回第i折交叉验证时所需要的训练和验证数据，分开放，X_train为训练数据，X_valid为验证数据
-#     fold_size = int(len(data_loader.dataset) / k)
-#     train_dataset = []
-#     dev_dataset = []
-#     for j in range(k):
-#         idx = slice(j*fold_size, (j+1)*fold_size)
-#         if j == i:
-#             dev_dataset = data_loader.dataset[idx]
-#         else:
-#             train_dataset += data_loader.dataset[idx]
-#     train_dataset += data_loader.dataset[fold_size * k:]
-#     train_loader = DataLoader(train_dataset, batch_size=data_loader.batch_size)
-#     dev_loader = DataLoader(dev_dataset, batch_size=data_loader.batch_size)
-#     assert (len(dev_loader)-1)*k <= len(data_loader) <= len(dev_loader)*k
-#     return train_loader, dev_loader
-
 def train(model, train_loader, dev_loader, config, vocab):
 
     loss_all = np.array([], dtype=float)
