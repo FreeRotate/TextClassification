@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# @File  : TransE.py
+# @File  : TransformerEncoder.py
 # @Author: LauTrueYes
 # @Date  : 2021-3-27 10:19
 import torch
