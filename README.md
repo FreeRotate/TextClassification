@@ -40,4 +40,4 @@ python main.py
 parser.add_argument('--model', type=str, default='GRU', help='CNN, GRU, LSTM, TransformerEncoder')
 ```
 
-### 这是我第一个开源的项目，欢迎star
+### 欢迎star
