@@ -49,7 +49,7 @@ def train(model, train_loader, dev_loader, config, vocab):
             print("***************************** Save Model *****************************")
 
 
-def evaluate(config, model, dev_loader, vocab):
+def evaluate(model, dev_loader, config, vocab):
     model.eval()    #评价模式
     loss_all = np.array([], dtype=float)
     predict_all = np.array([], dtype=int)
